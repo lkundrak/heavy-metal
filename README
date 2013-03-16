@@ -1,0 +1,10 @@
+Bare metal "Hello World" images loadable with kexec
+
+* GuruPlug:
+make ARCH=arm
+
+* Raspberry PI
+make ARCH=arm ARM_PLATFORM=raspi
+
+* PC:
+make ARCH=i386
